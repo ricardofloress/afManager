@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Aileron-Light";
+  src: url("Aileron-Light.otf");
+  font-style: normal;
+  font-weight: 50;
+}
+
+@font-face {
+  font-family: "Aileron-Thin";
+  src: url("Aileron-Thin.woff");
+  font-style: normal;
+  font-weight: 50;
+}
+
+body {
+  font-family: "Aileron-Light";
+}
+
+.editclient {
+  background-color: #c7dbff;
+  padding: 25px;
+  border-radius: 35px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+@media (max-width: 500px) {
+  .card-header > .card-tools {
+    float: none;
+    margin-right: 0.625rem;
+    margin-top: 35px;
+  }
+}
+
+.box-header h2 {
+  text-transform: uppercase;
+  margin: 60px 0;
+}
+
+.box-content h4 {
+  color: rgba(0, 7, 31, 0.45);}
+
+.form-actions {
+  margin: 40px 0;
+}
+
+.infodashp {
+  font-size: 20px;
+}
+
+.infodash {
+  margin: 25px 0;
+}
+
+.infodashdiv {
+  float: right;
+}
+
+.dashimg {
+  margin: 50px 0;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-wrapper {
+  background: #ffffff;
+}
+
+.imgTableCell{
+  display: block;
+  margin: 0 auto;
+  padding-right: 1rem;
+}
